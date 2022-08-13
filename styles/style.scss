@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: linear-gradient(90deg, rgb(65, 195, 228), rgb(35, 200, 112));
+  // 漸層模式
+}
+header {
+  height: 20vh;
+  display: flex;
+  justify-content: center; // 水平置中
+  align-items: center; // 垂直置中
+  h1 {
+    color: white;
+    font-size: 3rem;
+  }
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  input,
+  button {
+    border: none;
+    padding: 0.25rem 0.5rem;
+    font-size: 1.2rem;
+    margin: 0.2rem;
+  }
+  input[type="number"] {
+    width: 100px;
+    align-items: center;
+  }
+
+  //   hidden arrow
+  /* Chrome, Safari, Edge, Opera */
+  input::-webkit-outer-spin-button,
+  input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+
+  /* Firefox */
+  input[type="number"] {
+    -moz-appearance: textfield;
+  }
+  button {
+    cursor: pointer;
+    background-color: rgb(1, 162, 47);
+    color: white;
+  }
+}
+
+div.sort {
+  margin: 2vh;
+  display: flex;
+  justify-content: center;
+  button {
+    background-color: rgb(16, 90, 202);
+    color: white;
+    border: none;
+    padding: 1rem 0.5rem;
+    cursor: pointer;
+  }
+}
