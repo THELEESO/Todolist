@@ -62,4 +62,22 @@ div.sort button {
   border: none;
   padding: 1rem 0.5rem;
   cursor: pointer;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+section div.todo {
+  width: 30vw;
+  display: flex;
+  align-items: center;
+  margin: 0.3rem;
+}
+section div.todo p {
+  background-color: white;
+  color: black;
+  padding: 0.25rem 0.5rem;
+  font-size: 1.3rem;
 }/*# sourceMappingURL=style.css.map */
